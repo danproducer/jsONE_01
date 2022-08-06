@@ -1,0 +1,40 @@
+.encriptador{
+    margin: 100px 100px;
+}
+
+
+.encriptador__texto{
+    border: none;
+    background: none;
+    font-size: 25px;
+    margin-bottom: 150px;
+}
+
+.encriptador__aviso{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+
+
+.encriptador__boton1{
+    background-color: #0A3871;
+    color: white;
+    border: none;
+}
+
+.encriptador__boton1:hover{
+    background-color: #609ED4;
+    border: 1px solid #0A3871;
+}
+
+.encriptador__boton2{
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+}
+
+.encriptador__boton2:hover{
+    background-color: #AAB2D5;
+    color: #0A3871;
+}

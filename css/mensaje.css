@@ -1,0 +1,43 @@
+.mensaje{
+    width: 300px;
+    height: 700px;
+    padding: 0 30px;
+    border-radius: 28px;
+    background-color: white;
+    display: flexbox;
+    flex-direction: column; 
+    align-items: center;  
+
+}
+
+.mensaje__ilustracion{
+    margin-top: 100px;
+}
+
+.mensaje__title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #343A40;
+    text-align: center;
+    margin: 15px;
+}
+
+.mensaje__texto{
+    font-size: 16px;
+    color: #343A40;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.mensaje__botonCopy{
+    margin-top: 60px;
+    background-color: white;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    align-items: center;
+}
+
+.mensaje__botonCopy:hover{
+    background-color: #D8DFE8;
+    color: #0A3871;
+}

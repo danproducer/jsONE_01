@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/encriptador.css">
+    <link rel="stylesheet" href="/css/mensaje.css">
     <title>Encriptador - DanielGonzalez</title>
 </head>
 <body>
@@ -14,25 +16,25 @@
         <img src="/img/logo.png"  alt="" srcset="">
         </section>
 
-        <section id="encriptador">
+        <section class="encriptador container">
 
             <!-- <input type="text"> Ingrese el texto aqui </input> -->
-            <textarea name="" id="texto-encriptar" cols="35" rows="10" placeholder="">ingrese el texto aqui</textarea>
+            <textarea name="" class="encriptador__texto" cols="35" rows="10" placeholder="">ingrese el texto aqui</textarea>
 
-            <p class="aviso"><img src="/img/exclamacion.png" alt="" srcset=""> Solo letras minúsculas y sin acentos</p>
+            <p class="encriptador__aviso"><img src="/img/exclamacion.png" alt="" srcset=""> Solo letras minúsculas y sin acentos</p>
 
-            <button id="encriptar" class="boton1">Encriptar</button>
-            <button id="desencriptar" class="boton2">Desencriptar</button>
+            <button id="encriptar" class="encriptador__boton1">Encriptar</button>
+            <button id="desencriptar" class="encriptador__boton2">Desencriptar</button>
 
         </section>
-        <section id="mensaje">
-            <div class="aviso-mensaje">
-                <img src="/img/illustration.png" class="ilustracion" alt="" srcset="">
-                <h2 class="titleMensaje">Ningún mensaje fue encontrado</h2>
-                <p class="textoMensaje">Ingresa el texto que desees encriptar o desencriptar.</p>  
+        <section class="mensaje container">
+            <div class="mensaje__aviso">
+                <img src="/img/illustration.png" class="mensaje__ilustracion" alt="" srcset="">
+                <h2 class="mensaje__title">Ningún mensaje fue encontrado</h2>
+                <p class="mensaje__texto">Ingresa el texto que desees encriptar o desencriptar.</p>  
             </div>
             <div id="boton-copiar" >
-                <button class="botonCopy">Copiar</button>
+                <button class="mensaje__botonCopy">Copiar</button>
             </div>
         </section>
 

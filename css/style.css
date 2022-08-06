@@ -12,28 +12,12 @@ body{
 
 main{
     display: flex;
+    flex-direction: row;
 }
 
 .logo{
     margin: 0;
     padding-right: 120px;
-}
-
-#encriptador{
-    margin: 100px 100px;
-}
-
-
-textarea{
-    border: none;
-    background: none;
-    font-size: 25px;
-    margin-bottom: 150px;
-}
-
-.aviso{
-    font-size: 12px;
-    margin-bottom: 20px;
 }
 
 button{
@@ -44,67 +28,3 @@ button{
 
 }
 
-.boton1{
-    background-color: #0A3871;
-    color: white;
-    border: none;
-}
-
-.boton1:hover{
-    background-color: #609ED4;
-    border: 1px solid #0A3871;
-}
-
-.boton2{
-    background-color: #D8DFE8;
-    color: #0A3871;
-    border: 1px solid #0A3871;
-}
-
-.boton2:hover{
-    background-color: #AAB2D5;
-    color: #0A3871;
-}
-
-#mensaje{
-    width: 300px;
-    height: 700px;
-    padding: 0 30px;
-    border-radius: 28px;
-    background-color: white;
-    display: flexbox;
-    
-
-}
-
-.ilustracion{
-    margin-top: 100px;
-}
-
-.titleMensaje{
-    font-size: 24px;
-    font-weight: 700;
-    color: #343A40;
-    text-align: center;
-    margin: 15px;
-}
-
-.textoMensaje{
-    font-size: 16px;
-    color: #343A40;
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-.botonCopy{
-    margin-top: 60px;
-    background-color: white;
-    color: #0A3871;
-    border: 1px solid #0A3871;
-    align-items: center;
-}
-
-.botonCopy:hover{
-    background-color: #D8DFE8;
-    color: #0A3871;
-}
